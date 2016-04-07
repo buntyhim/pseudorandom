@@ -1,2 +1,2 @@
 # hardware-programming
-Trying hardware programming with Verilog and FPGAs
+Trying hardware programming with Verilog on FPGAs
