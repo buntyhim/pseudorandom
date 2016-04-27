@@ -1,5 +1,5 @@
 # hardware-programming
-Hardware programming with Verilog on FPGAs. Worked with Aakash Verma on LFSRs for pseudorandom output generation.
+Hardware programming with Verilog on FPGAs. LFSRs for pseudorandom output generation.
 
 ![FPGA Prototyping](https://github.com/madhav-datt/hardware-programming/blob/master/Resources/fpga.jpg)
 
