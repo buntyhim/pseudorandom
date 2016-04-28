@@ -1,28 +1,13 @@
 `timescale 1ns / 1ps
 
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   16:49:01 03/28/2016
-// Design Name:   LFSR
-// Module Name:   C:/Users/student/Desktop/LFSR/test2.v
-// Project Name:  LFSR
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: LFSR
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
+/**
+ * Madhav Datt
+ *
+ * MIT License
+ * Basic Linear Feedback Shift Registers Test Modules
+ */
 
-module test2;
+module test;
 
 	// Inputs
 	reg [3:0] seed;
@@ -35,10 +20,10 @@ module test2;
 
 	// Instantiate the Unit Under Test (UUT)
 	LFSR uut (
-		.state(state), 
-		.seed(seed), 
-		.rst(rst), 
-		.sel(sel), 
+		.state(state),
+		.seed(seed),
+		.rst(rst),
+		.sel(sel),
 		.clk(clk)
 	);
 
@@ -47,20 +32,19 @@ initial begin
 		forever
 			#20 clk = ~clk;
 	end
-	
+
 	initial begin
 		seed = 4'b1111;
 		rst = 1'b1;
 		sel = 1'b0;
-		
+
 		#100;
 		rst = 1'b0;
 		sel = 1'b0;
-		
+
 		#100;
 		rst = 1'b0;
-		sel = 1'b1;		
+		sel = 1'b1;
 	end
-      
-endmodule
 
+endmodule
