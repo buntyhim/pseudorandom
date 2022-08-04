@@ -1,6 +1,6 @@
 # pseudorandom numbers on an FPGA
 
-Hardware programming with Verilog on FPGAs. LFSRs for pseudorandom output generation.
+Hardware programming with Verilog on FPGAs. LFSRs for pseudorandom output generation. Implemented on Zedboard.
 
 ![FPGA Prototyping](https://github.com/madhav-datt/hardware-programming/blob/master/Resources/fpga.jpg)
 
